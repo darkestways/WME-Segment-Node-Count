@@ -19,21 +19,29 @@ Or manually from GitHub releases: https://github.com/darkfishtech/WME-Segment-No
 
 ## Screenshots
 
-Segment with normal node count
+### Segment(s) with normal node count
 
-![Normal Node Count](img/wme-snc-normal-count.jpg)
+1. For a single segment
+   
+   ![Normal Node Count](img/wme-snc-normal-count.jpg)
+2. For multiple segments
+   
+   ![Multiple Segments Normal Node Count](img/wme-snc-normal-count-many-segments.jpg)
 
-Segment with high node count (warning)
 
-![High Node Count](img/wme-snc-warning-display.jpg)
-![High Node Count Notification](img/wme-snc-warning-notification.jpg)
+### Segment(s) with high node count
 
-Segment with too high node count (danger)
+1. At least one of the selected segments has a high node count (above 450, below 500) - warning
+   
+   ![High Node Count](img/wme-snc-warning-display.jpg)
+   ![High Node Count Notification](img/wme-snc-warning-notification.jpg)
 
-![Too High Node Count](img/wme-snc-danger-display.jpg)
-![Too High Node Count Notification](img/wme-snc-danger-notification.jpg)
+2. At least one of the selected segments has too high node count (>500) - error
 
-New or Merged segment with too high node count (danger)
+   ![Too High Node Count](img/wme-snc-danger-display.jpg)
+   ![Too High Node Count Notification](img/wme-snc-danger-notification.jpg)
 
-![New/Merged Segment with Too High Node Count](img/wme-snc-danger-display-new-segment.jpg)
-![New/Merged Segment with Too High Node Count Notification](img/wme-snc-danger-notification-new-segment.jpg)
+3. New or Merged segment has too high node count (>500) - error
+
+   ![New/Merged Segment with Too High Node Count](img/wme-snc-danger-display-new-segment.jpg)
+   ![New/Merged Segment with Too High Node Count Notification](img/wme-snc-danger-notification-new-segment.jpg)
