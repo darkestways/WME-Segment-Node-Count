@@ -15,7 +15,7 @@ Danger notification is shown when exceeding the hard-threshold of 500 nodes.
 ## Installation
 Install from GreasyFork: https://greasyfork.org/en/scripts/562605-wme-segment-node-count
 
-Or manually from GitHub releases: https://github.com/darkfishtech/WME-Segment-Node-Count/releases
+Or manually from GitHub releases: https://github.com/darkestways/WME-Segment-Node-Count/releases
 
 ## Screenshots
 
