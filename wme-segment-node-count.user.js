@@ -205,7 +205,7 @@ function init() {
         eventHandler: updateSegmentNodeCount
     });
 
-    logger(`${SCRIPT_NAME} v${SCRIPT_VERSION} initialized.`);
+    logger(`${SCRIPT_NAME} v${SCRIPT_VERSION} initialised.`);
 }
 
 // Load Toastr for notifications
